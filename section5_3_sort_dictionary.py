@@ -9,4 +9,4 @@ scores = {
 
 # Sort dictionary by values in ascending order
 sorted_dict_asc = dict(sorted(scores.items(), key=lambda item: item[1]))
-print("Dictionary sorted by value (ascending):", sorted_dict_asc)
+print("Dictionary sorted by value (ascending):\n",sorted_dict_asc)

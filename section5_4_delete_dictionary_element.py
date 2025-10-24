@@ -6,8 +6,8 @@ my_dict = {
     'job': 'Engineer'
 }
 
-print("Original dictionary:", my_dict)
+print("Original dictionary:\n", my_dict)
 # Using pop() method
 removed_value = my_dict.pop('age', 'Not found')
-print("After deleting 'age' using pop():", my_dict)
-print("Removed value:", removed_value)
+print("After deleting 'age' using pop():\n", my_dict)
+print("Removed value:\n", removed_value)

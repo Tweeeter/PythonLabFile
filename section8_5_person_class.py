@@ -1,0 +1,16 @@
+# Create a class named Person
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    
+    def display(self):
+        print(f"Name: {self.name}, Age: {self.age}")
+
+# Create objects
+person1 = Person("Alice", 25)
+person2 = Person("Bob", 30)
+
+# Display information
+person1.display()
+person2.display()
